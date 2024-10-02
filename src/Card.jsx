@@ -12,7 +12,7 @@ function Card(props) {
           <div className='my-3'>
               
           <p className='self-start font-semibold'>{props.title}</p>
-          <p className='self-start text-2xl font-semibold text-green-800'>${props.price}</p>
+          <p className='self-start text-2xl font-semibold text-primary'>${props.price}</p>
           </div>
           <button className='btn w-full bg-secondary text-secondary-content rounded-md'>Add to cart</button>
           </div>
